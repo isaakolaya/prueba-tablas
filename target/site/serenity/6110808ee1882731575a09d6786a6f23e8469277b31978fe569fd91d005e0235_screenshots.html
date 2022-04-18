@@ -1,0 +1,245 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Proyecto de demostración usando Serenity y Cucumber</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="2d2cc5ffec9591d253d8f5b060ac6d0d29d3459e22558a8dc3993955f732582d.html">Colorlib</a></span>
+                > <span class="truncate-60"><a
+                    href="6110808ee1882731575a09d6786a6f23e8469277b31978fe569fd91d005e0235.html">Check a form </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 22-03-2022 10:58</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Colorlib </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a user, I want to check the form on the Block Validation screen
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="24450b37cdfa8b3870da5e9c95a24ed53758be7b5b35466e749c3f49d38ada7c.html">Hu2
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="4501a2ff09b70a6cabfa3af4e8ee5ab899ba2eb4146abc6fabbb502e6de3684b.html">Prueba
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Check a form
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given than IsaakOlaya wants to visit the colorlib page<br>When he enter to Block Validation F<br>And he fill out the BlockValidation F<br>Then he validate the BlockValidation F</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="9c39a2c9f8b0ea38a85d91851d8be7bbc6f9f9548fdeea0d8fac7fca48cbf736.png" title="Check a form #1: {required=reto1, email=reto1@gmail.com, pass=passreto, cpass=passreto, date=16/03/2022, url=https://www.reto1.com/, digits=0011334455, range=15}" width="1366"/>
+                <img src="e7184afc77d6cfefd9a693cc42af7a7e88e051d863cabe1a130e293600487552.png" title="Given than IsaakOlaya wants to visit the colorlib page" width="1366"/>
+                <img src="a0fb3f268b7d67cc8eeeafe785e130de16f9c41bf994b087d68b1d344615e6af.png" title="Isaak opens the Repositorio" width="1366"/>
+                <img src="6d530aa9647db1b139ee78e591db6b43564da0dd07904be940414de8c89498ed.png" title="Isaak enters 'demo' into Where do we write the user" width="1366"/>
+                <img src="dc3bc2cfbb55286926c8f238fc848ef5f5c47af7fb87442801240abb06e91c23.png" title="Isaak enters 'demo' into Where do we write the password" width="1366"/>
+                <img src="e7184afc77d6cfefd9a693cc42af7a7e88e051d863cabe1a130e293600487552.png" title="Isaak clicks on button that confirm the login" width="1366"/>
+                <img src="9c39a2c9f8b0ea38a85d91851d8be7bbc6f9f9548fdeea0d8fac7fca48cbf736.png" title="When he enter to Block Validation F" width="1366"/>
+                <img src="3264d268a24bc137594e0417d45dc3a3f0e9206c9d1a0444655750343b13686d.png" title="Isaak clicks on click menu" width="1366"/>
+                <img src="9c39a2c9f8b0ea38a85d91851d8be7bbc6f9f9548fdeea0d8fac7fca48cbf736.png" title="Isaak clicks on click submenu" width="1366"/>
+                <img src="9c39a2c9f8b0ea38a85d91851d8be7bbc6f9f9548fdeea0d8fac7fca48cbf736.png" title="And he fill out the BlockValidation F
+| required | email | pass | cpass | date | url | digits | range |
+| reto1 | reto1@gmail.com | passreto | passreto | 16/03/2022 | https://www.reto1.com/ | 0011334455 | 15 |" width="1366"/>
+                <img src="15b335186f255498c4be876d7cce32a3dbae6aa593d93c64db4b988197477310.png" title="Isaak enters 'reto1' into Where do we write the " width="1366"/>
+                <img src="c7df57b4a889650b76309ce76fda6cdb8a8cbf9aec16158fcfe675f81b4df574.png" title="Isaak enters 'reto1@gmail.com' into Where do we write the " width="1366"/>
+                <img src="c3d70e8c4813ae702c147df986293d9578481ef744f17539435fc2e32b552322.png" title="Isaak enters 'passreto' into Where do we write the " width="1366"/>
+                <img src="a0e996f8966285040992700592a1387d0566a98cdd1ac2f5d77df2e0e8931869.png" title="Isaak enters 'passreto' into Where do we write the ser" width="1366"/>
+                <img src="36458c057c451b2a56c4ecbb6be365b8e78323c167ed78f8496d6d396d282d4a.png" title="Isaak enters '16/03/2022' into Where do we write the " width="1366"/>
+                <img src="0da9c2711558cf7cecc748e14a3479874752feddec853f3d431ba809e3d880ac.png" title="Isaak enters 'https://www.reto1.com/' into Where do we write the " width="1366"/>
+                <img src="0987bc6246716f02031319eab5092a7cc6244b18b7f8ac23c154a68d2ee03ca4.png" title="Isaak enters '0011334455' into Where do we write the " width="1366"/>
+                <img src="dc06a9c8785b2c16031edbba27f18b8397719d562adc3eb7a1cdfafeff7dacd7.png" title="Isaak enters '15' into Where do we write the " width="1366"/>
+                <img src="30fe5062cb72da52f0d1fc7b1341b78f62c7397de3dceb6ba7a625cc36ceedb8.png" title="Isaak clicks on  " width="1366"/>
+                <img src="9c39a2c9f8b0ea38a85d91851d8be7bbc6f9f9548fdeea0d8fac7fca48cbf736.png" title="Isaak clicks on  " width="1366"/>
+                <img src="9c39a2c9f8b0ea38a85d91851d8be7bbc6f9f9548fdeea0d8fac7fca48cbf736.png" title="Then he validate the BlockValidation F" width="1366"/>
+                <img src="9c39a2c9f8b0ea38a85d91851d8be7bbc6f9f9548fdeea0d8fac7fca48cbf736.png" title="Then answer" width="1366"/>
+                <img src="60462ac3b838f0b972246e0c2432aa4b3885257081debc2f08f15d6295ef24e5.png" title="Check a form #2: {required=reto2, email=reto2@gmail.com, pass=passreto, cpass=passreto, date=16/03/2022, url=https://www.reto1.com/, digits=0011334455, range=15}" width="1366"/>
+                <img src="9d4aa947b665d42a2b3d6f25756960f9e1e13de10d9eec9a32710ab05a2e05f3.png" title="Given than IsaakOlaya wants to visit the colorlib page" width="1366"/>
+                <img src="a0fb3f268b7d67cc8eeeafe785e130de16f9c41bf994b087d68b1d344615e6af.png" title="Isaak opens the Repositorio" width="1366"/>
+                <img src="73083604fd0831da7ef699061918dce5e7bcdfe41db6e901dfa6f433e0b8db99.png" title="Isaak enters 'demo' into Where do we write the user" width="1366"/>
+                <img src="dc3bc2cfbb55286926c8f238fc848ef5f5c47af7fb87442801240abb06e91c23.png" title="Isaak enters 'demo' into Where do we write the password" width="1366"/>
+                <img src="1f9ea8827b4ea2347e16278ae3bcf60155e3f93efe1b0abf8c023b954515b611.png" title="Isaak clicks on button that confirm the login" width="1366"/>
+                <img src="9c39a2c9f8b0ea38a85d91851d8be7bbc6f9f9548fdeea0d8fac7fca48cbf736.png" title="When he enter to Block Validation F" width="1366"/>
+                <img src="88d93fa47724660cfab4b2d0bb17481b11d31655a04f036afc5da473199d9cf5.png" title="Isaak clicks on click menu" width="1366"/>
+                <img src="9c39a2c9f8b0ea38a85d91851d8be7bbc6f9f9548fdeea0d8fac7fca48cbf736.png" title="Isaak clicks on click submenu" width="1366"/>
+                <img src="da684ba63ee0af0d9852737003fe9d72cce3e3849fdb36083d80a029672bd6ab.png" title="And he fill out the BlockValidation F
+| required | email | pass | cpass | date | url | digits | range |
+| reto2 | reto2@gmail.com | passreto | passreto | 16/03/2022 | https://www.reto1.com/ | 0011334455 | 15 |" width="1366"/>
+                <img src="479d70749f74862ce1ff9ac95b993480b3c847a731e9d4241e3258444bc26f0e.png" title="Isaak enters 'reto2' into Where do we write the " width="1366"/>
+                <img src="dbece5bda31b8cdbdb4e63f0204abf728a4d0d3c2a41004bbc1d46160e95ecc2.png" title="Isaak enters 'reto2@gmail.com' into Where do we write the " width="1366"/>
+                <img src="c0b4b4ffb730c3814b23ab0fc5be0e64b6498a868c34dbe18543d0573db0a569.png" title="Isaak enters 'passreto' into Where do we write the " width="1366"/>
+                <img src="aaf9f9fb86976beb413d83ae82a72e3b19454391e42c3689cbb03fd6f1666092.png" title="Isaak enters 'passreto' into Where do we write the ser" width="1366"/>
+                <img src="55e3605830c5731c47f0f64247160f91d9a946fb54f74a73e68ac5dc873fa284.png" title="Isaak enters '16/03/2022' into Where do we write the " width="1366"/>
+                <img src="35262c6f68842a6ad3ce30b635c9ccfd4dd1a68a1cb360f6ae9c4a5d0a2097fd.png" title="Isaak enters 'https://www.reto1.com/' into Where do we write the " width="1366"/>
+                <img src="a68ee0c894d229c400f9d569ccb5b1ffcdb78d1cea754f4f1fefca8c9677fc79.png" title="Isaak enters '0011334455' into Where do we write the " width="1366"/>
+                <img src="6b5f365e604f74721aa13b936a7f2790325fcb68c8edb6149667ab25ce8bdf58.png" title="Isaak enters '15' into Where do we write the " width="1366"/>
+                <img src="283760ede805cc5420e9e7010c30a4e4fa160ef09e58180e213f75692a4fcc72.png" title="Isaak clicks on  " width="1366"/>
+                <img src="077a335dd3e8c7f81d6ac96626e4fd7d0af4972134a8c9100d6c279828d3d9fd.png" title="Isaak clicks on  " width="1366"/>
+                <img src="da684ba63ee0af0d9852737003fe9d72cce3e3849fdb36083d80a029672bd6ab.png" title="Then he validate the BlockValidation F" width="1366"/>
+                <img src="da684ba63ee0af0d9852737003fe9d72cce3e3849fdb36083d80a029672bd6ab.png" title="Then answer: <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+
+T
+java:S3252	"9Use static access with "org.openqa.selenium.By" for "id".(¼ú»Äûÿÿÿÿ
+T
+java:S3252"9Use static access with "org.openqa.selenium.By" for "id".(Ùòò ıÿÿÿÿ
+X
+java:S3252"BUse static access with "org.openqa.selenium.By" for "cssSelector".(Àåı˜
+]
+java:S3252"BUse static access with "org.openqa.selenium.By" for "cssSelector".(Æ¨€Àÿÿÿÿÿ
+O
+java:S3252"9Use static access with "org.openqa.selenium.By" for "id".(èúÀ¯
+T
+java:S3252"9Use static access with "org.openqa.selenium.By" for "id".(Ôû³úúÿÿÿÿ
+X
+java:S3252"BUse static access with "org.openqa.selenium.By" for "cssSelector".(¯ÚŸÂ
+]
+java:S3252"BUse static access with "org.openqa.selenium.By" for "cssSelector".(ğÛ£üÿÿÿÿ
+T
+java:S3252"9Use static access with "org.openqa.selenium.By" for "id".(‡‘„êúÿÿÿÿ
+R
+java:S3252"<Use static access with "org.openqa.selenium.By" for "xpath".(›ôå€
+r
+java:S1192"WDefine a constant instead of duplicating this literal "Where do we write the " 7 times.(Îî¶ƒÿÿÿÿÿ
